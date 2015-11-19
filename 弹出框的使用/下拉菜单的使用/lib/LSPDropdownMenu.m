@@ -60,7 +60,11 @@
     
 }
 
-
+/**
+ *  显示到UIView-from上
+ *
+ *  @param from <#from description#>
+ */
 - (void)showFrom:(UIView *)from
 {
     UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
